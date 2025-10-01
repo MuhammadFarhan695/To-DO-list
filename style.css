@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #8c8b8bf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .todo-container {
+    background:aqua;
+    padding: 20px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border: 4px solid #000;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  .input-row {
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  .input-row input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #f7f7f7;
+    border-radius:  07px;
+    outline: 2px;
+    background-color: black;
+    font-size: 20px;
+    color: #f7f7f7;
+  }
+
+  .input-row button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #f7f7f7;
+  }
+
+  .input-row button:hover {
+    background: white;
+    color: #000;
+    border: 2px solid #000;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    background: #000;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #f7f7f7;
+  }
+
+  .delete-btn {
+    background: white;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .delete-btn:hover {
+    background: #c82333;
+  }
